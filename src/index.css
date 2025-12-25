@@ -1,3 +1,50 @@
+/* ============================================
+   ГЛОБАЛЬНЫЕ ШРИФТЫ
+   ============================================ */
+
+@font-face {
+  font-family: Arturito;
+  src: url("./assets/fonts/arturito.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lubrifont;
+  src: url("./assets/fonts/WDXLLubrifontJPN-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter_28pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter_28pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter_28pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   ГЛОБАЛЬНЫЕ СТИЛИ
+   ============================================ */
 * {
   margin: 0;
   padding: 0;
