@@ -5,6 +5,7 @@
   align-items: center;
 
   width: 100%;
+  padding: 20px 0px;
 }
 
 .header__title-container {
@@ -18,24 +19,24 @@
 
 .header__title {
   font-family: Arturito;
+  font-size: 28px;
   font-weight: 700;
   text-align: center;
   color: var(--color-dark);
 }
 
-@media (min-width: 360px) {
-  .header {
-    padding: 20px 0;
-  }
+/* Показываем сокращённый заголовок на мобильных */
+.header__title--full {
+  display: none;
+}
 
-  .header__title {
-    font-size: 28px;
-  }
+.header__title--short {
+  display: inline;
 }
 
 @media (min-width: 480px) {
   .header {
-    padding: 20px 0;
+    padding: 20px 0px;
   }
 
   .header__title {
@@ -45,7 +46,16 @@
 
 @media (min-width: 768px) {
   .header {
-    padding: 20px 0;
+    padding: 20px 0px;
+  }
+
+  /* Показываем полный заголовок на планшетах и десктопах */
+  .header__title--full {
+    display: inline;
+  }
+
+  .header__title--short {
+    display: none;
   }
 
   .header__title {
@@ -55,7 +65,7 @@
 
 @media (min-width: 1024px) {
   .header {
-    padding: 20px 0;
+    padding: 20px 0px;
   }
 
   .header__title {
@@ -65,7 +75,7 @@
 
 @media (min-width: 1440px) {
   .header {
-    padding: 30px 0;
+    padding: 30px 0px;
   }
 
   .header__title {

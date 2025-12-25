@@ -1,0 +1,37 @@
+.category-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+  gap: 20px;
+}
+
+@media (min-width: 480px) {
+  .category-list {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .category-list {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-list {
+    gap: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .category-list {
+    gap: 50px;
+  }
+}
