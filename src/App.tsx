@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import CategoryList from "./components/CategoryList";
+import ProjectCategoryList from "./components/ProjectCategoryList";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className="app__main-title-container">
           <h2 className="app__main-title">Выберите категорию проекта</h2>
         </div>
-        <CategoryList />
+        <ProjectCategoryList />
       </main>
     </div>
   );
