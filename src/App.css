@@ -1,0 +1,95 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 0 20px;
+  padding-bottom: 100px;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  gap: 30px;
+}
+
+.app__main-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.app__main-title {
+  font-family: Arturito;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+
+  color: var(--color-dark);
+}
+
+@media (min-width: 480px) {
+  .app {
+    padding: 0 20px;
+  }
+
+  .app__main {
+    gap: 50px;
+  }
+
+  .app__main-title {
+    font-size: 25px;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    padding: 0 20px;
+  }
+
+  .app__main {
+    gap: 30px;
+  }
+
+  .app__main-title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    padding: 0 40px;
+  }
+
+  .app__main {
+    gap: 50px;
+  }
+
+  .app__main-title {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .app {
+    padding: 0 90px;
+  }
+
+  .app__main {
+    gap: 60px;
+  }
+
+  .app__main-title {
+    font-size: 60px;
+  }
+}
