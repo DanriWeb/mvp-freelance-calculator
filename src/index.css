@@ -60,14 +60,22 @@ body {
   background: var(--app-background-gradient);
 }
 
+img,
+svg {
+  user-select: none;
+  pointer-events: none;
+}
+
 /* ============================================
    ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ
    ============================================ */
 :root {
   --color-dark: #2b2b2b;
   --color-white: #ffffff;
+  --color-turquoise-dark: #007f9a;
   --color-turquoise: #37dbff;
-  --color-turquoise-light: #b1f1ff;
+  --color-turquoise-lighter: #b1f1ff;
+  --color-turquoise-light: #e9fdfc;
 }
 
 :root {
